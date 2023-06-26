@@ -27,12 +27,14 @@
 				<h1 class="entry__title">Jak wyciągnąć hasło z dziennika Uonet - absloutna nauczycielska głupota</h1>
 				<div class="entry__content"><p>Hej w tym wpisie zademonstruje wam sposób na wydobycie haseł do dziennika uonet który wymyśliliśmy z kolegą (i oczywiście nie zastosowaliśmy hehehe).</p>
 <h2 id="teoria">Teoria</h2>
-<p>Do tego celu korzystamy z ataku ARP spoofing i DNS spoofing który przekierowuje wszystkie zapytania do naszego serwera HTTP z fajkowa stroną. Niestety szyfrowanie uniemożliwia przekierowania stron na protokole HTTPS (do których oczywiście dziennik uonet się wlicza), więc wykombinowaliśmy przekierowanie adresów których przeglądarka używa do sprawdzania <a href="https://en.wikipedia.org/wiki/Captive_portal">captive portalu</a> dzięki czemu nasza stronka pojawia się w przeglądarce jako “Zaloguj się do sieci”, a nauczyciele którzy nie są w stanie rozpoznać oczywistej zarzutki po kliknięciu w to są przekierowani do strony logowania do dziennika (oczywiście z naszego serwera)</p>
+<p>Do tego celu korzystamy z ataku ARP spoofing i DNS spoofing który przekierowuje wszystkie zapytania do naszego serwera HTTP z fejkową stroną. Niestety szyfrowanie uniemożliwia przekierowania stron na protokole HTTPS (do których oczywiście dziennik uonet się wlicza), więc wykombinowaliśmy przekierowanie adresów których przeglądarka używa do sprawdzania <a href="https://en.wikipedia.org/wiki/Captive_portal">captive portalu</a> dzięki czemu nasza stronka pojawia się w przeglądarce jako “Zaloguj się do sieci”, a nauczyciele którzy nie są w stanie rozpoznać oczywistej zarzutki po kliknięciu w to są przekierowani do strony logowania do dziennika (oczywiście z naszego serwera)</p>
 <h2 id="praktyka">Praktyka</h2>
 <h3 id="z-czego-będziemy-korzystać">z czego będziemy korzystać</h3>
 <p>Źródła:
 <a href="https://gist.github.com/hasajacyszatan/87c2ac159359008fc45dc6ddb29c6494">UonetSniffer.py</a>
-<a href="https://drive.google.com/file/d/1-3LQe4--NMHaGo5OvFQ7dZr8tzGkBZLr/view?usp=drivesdk">Csploit.apk</a></p>
+<a href="https://drive.google.com/file/d/1-3LQe4--NMHaGo5OvFQ7dZr8tzGkBZLr/view?usp=drivesdk">Csploit.apk</a>
+<a href="https://github.com/termux/termux-api">Termux:API</a>
+<a href="https://f-droid.org/pl/packages/com.termux/">Termux</a></p>
 <ul>
 <li>Telefon
 <ul>

@@ -14,7 +14,7 @@
       
       <guid>http://example.org/posts/jak-wyci%C4%85gn%C4%85%C4%87-has%C5%82o-z-dziennika-uonet-absloutna-nauczycielska-g%C5%82upota/</guid>
       <description>Hej w tym wpisie zademonstruje wam sposób na wydobycie haseł do dziennika uonet który wymyśliliśmy z kolegą (i oczywiście nie zastosowaliśmy hehehe).
-Teoria Do tego celu korzystamy z ataku ARP spoofing i DNS spoofing który przekierowuje wszystkie zapytania do naszego serwera HTTP z fajkowa stroną. Niestety szyfrowanie uniemożliwia przekierowania stron na protokole HTTPS (do których oczywiście dziennik uonet się wlicza), więc wykombinowaliśmy przekierowanie adresów których przeglądarka używa do sprawdzania captive portalu dzięki czemu nasza stronka pojawia się w przeglądarce jako “Zaloguj się do sieci”, a nauczyciele którzy nie są w stanie rozpoznać oczywistej zarzutki po kliknięciu w to są przekierowani do strony logowania do dziennika (oczywiście z naszego serwera)</description>
+Teoria Do tego celu korzystamy z ataku ARP spoofing i DNS spoofing który przekierowuje wszystkie zapytania do naszego serwera HTTP z fejkową stroną. Niestety szyfrowanie uniemożliwia przekierowania stron na protokole HTTPS (do których oczywiście dziennik uonet się wlicza), więc wykombinowaliśmy przekierowanie adresów których przeglądarka używa do sprawdzania captive portalu dzięki czemu nasza stronka pojawia się w przeglądarce jako “Zaloguj się do sieci”, a nauczyciele którzy nie są w stanie rozpoznać oczywistej zarzutki po kliknięciu w to są przekierowani do strony logowania do dziennika (oczywiście z naszego serwera)</description>
     </item>
     
   </channel>
