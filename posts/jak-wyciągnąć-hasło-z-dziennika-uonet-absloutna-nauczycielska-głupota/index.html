@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pl-pl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>Jak wyciągnąć hasło z dziennika Uonet - absloutna nauczycielska głupota | Hasajacy</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="/css/bundle.css">
+	<link rel="icon" href="/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body class="body kind-page">
+	<header class="header">
+	<a class="logo" href="/">Hasajacy</a>
+	
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		
+		<div class="single block">
+			<article class="entry">
+				<h1 class="entry__title">Jak wyciągnąć hasło z dziennika Uonet - absloutna nauczycielska głupota</h1>
+				<div class="entry__content"><p>Hej w tym wpisie zademonstruje wam sposób na wydobycie haseł do dziennika uonet który wymyśliliśmy z kolegą (i oczywiście nie zastosowaliśmy hehehe).</p>
+<h2 id="teoria">Teoria</h2>
+<p>Do tego celu korzystamy z ataku ARP spoofing i DNS spoofing który przekierowuje wszystkie zapytania do naszego serwera HTTP z fajkowa stroną. Niestety szyfrowanie uniemożliwia przekierowania stron na protokole HTTPS (do których oczywiście dziennik uonet się wlicza), więc wykombinowaliśmy przekierowanie adresów których przeglądarka używa do sprawdzania <a href="https://en.wikipedia.org/wiki/Captive_portal">captive portalu</a> dzięki czemu nasza stronka pojawia się w przeglądarce jako “Zaloguj się do sieci”, a nauczyciele którzy nie są w stanie rozpoznać oczywistej zarzutki po kliknięciu w to są przekierowani do strony logowania do dziennika (oczywiście z naszego serwera)</p>
+<h2 id="praktyka">Praktyka</h2>
+<h3 id="z-czego-będziemy-korzystać">z czego będziemy korzystać</h3>
+<p>Źródła:
+<a href="https://gist.github.com/hasajacyszatan/87c2ac159359008fc45dc6ddb29c6494">UonetSniffer.py</a>
+<a href="https://drive.google.com/file/d/1-3LQe4--NMHaGo5OvFQ7dZr8tzGkBZLr/view?usp=drivesdk">Csploit.apk</a></p>
+<ul>
+<li>Telefon</li>
+<li>Z androidem</li>
+<li>zrootowany</li>
+<li>Z zainstalowanym termuxem (z githuba lub fdroida)</li>
+<li>Csploit</li>
+<li>UonetSniffer.py z mojego githuba</li>
+<li>sieć szkolna (musicie mieć hasło do sieci szkolnej)</li>
+<li>Głupota nauczycieli</li>
+<li>Szczęście</li>
+</ul>
+<ol>
+<li>Odpal termuxa wpisz <code>setenforce 0</code> aby ustawić tryb selinux na tryb permisive</li>
+<li>WYŁĄCZ TRANSMISJE MOBILNĄ ABY TELEFON AUTOMATYCZNIE SIĘ NA NIĄ NIE PRZEŁĄCZYŁ</li>
+<li>Otwórz csploit &gt; wybierz adres sieci &gt; kliknij MITM &gt; Przekieruj i wpisz tam adres 127.0.0.1 (localhost) oraz port 5000</li>
+<li>Pobierz lub przekopiuj UonetSniffer.py do katalogu Download</li>
+<li>Wróć do termuxa wpisz termux-setup-storage i w pojawiającym się okienku kliknij zezwalaj</li>
+<li><code>cd storage/shared/Download</code></li>
+<li><code>pip install flask requests</code></li>
+<li>upewnij się że NIE działasz jako root i wpisz komendę <code>python3 UonetSniffer.py</code></li>
+<li>Gotowe możesz teraz zminimalizować termuxa i czekać na powiadomienia z hasłami</li>
+</ol>
+<h2 id="uwaga">Uwaga</h2>
+<p>jeśli uda się przejąć hasła:
+Nie wpisuj ich w swojej sieci
+Najlepiej nie dopisuj ocen/obecności a jeśli już musisz to wpisz też innym aby nie rzucić na siebie podejrzeń
+Proszę nie rób nic głupiego/nie etycznego</p>
+<h2 id="screenshoty">screenshoty</h2>
+<img src="https://i.imgur.com/YAql2TJ.png" width=400px/>
+<img src="https://i.imgur.com/5UbtXnO.png" width=400px/>
+<img src="https://i.imgur.com/XgCWOzi.png" width=400px/>
+</div>
+				
+			</article>
+		</div>
+	</main>
+	
+	
+
+
+
+	
+
+	</div>
+	<footer class="footer">
+	<div class="footer__copyright">© 2023 Hasajacy. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+</body>
+</html>
