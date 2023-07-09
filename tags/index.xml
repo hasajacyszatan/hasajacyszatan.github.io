@@ -2,9 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hasajacy</title>
-    <link>http://example.org/tags/</link>
+    <link>https://hasajacy.github.io/tags/</link>
     <description>Recent content in Tags on Hasajacy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl-pl</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 09 Jul 2023 19:21:00 +0200</lastBuildDate><atom:link href="https://hasajacy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://hasajacy.github.io/tags/ai/</link>
+      <pubDate>Sun, 09 Jul 2023 19:21:00 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>czatruletka</title>
+      <link>https://hasajacy.github.io/tags/czatruletka/</link>
+      <pubDate>Sun, 09 Jul 2023 19:21:00 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/tags/czatruletka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://hasajacy.github.io/tags/android/</link>
+      <pubDate>Mon, 26 Jun 2023 20:44:26 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foniki</title>
+      <link>https://hasajacy.github.io/tags/foniki/</link>
+      <pubDate>Mon, 26 Jun 2023 20:44:26 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/tags/foniki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacking</title>
+      <link>https://hasajacy.github.io/tags/hacking/</link>
+      <pubDate>Mon, 26 Jun 2023 20:44:26 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uonet</title>
+      <link>https://hasajacy.github.io/tags/uonet/</link>
+      <pubDate>Mon, 26 Jun 2023 20:44:26 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/tags/uonet/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

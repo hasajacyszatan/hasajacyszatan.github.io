@@ -2,17 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://hasajacy.github.io/tags/ai/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/posts/bot-kt%C3%B3ry-pisa%C5%82-z-lud%C5%BAmi-na-portalu-typu-czatruletka/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/categories/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/tags/czatruletka/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/categories/pierdo%C5%82y/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/posts/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/tags/</loc>
+    <lastmod>2023-07-09T19:21:00+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/tags/android/</loc>
     <lastmod>2023-06-26T20:44:26+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/jak-wyci%C4%85gn%C4%85%C4%87-has%C5%82o-z-dziennika-uonet-absloutna-nauczycielska-g%C5%82upota/</loc>
+    <loc>https://hasajacy.github.io/tags/foniki/</loc>
     <lastmod>2023-06-26T20:44:26+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://hasajacy.github.io/tags/hacking/</loc>
     <lastmod>2023-06-26T20:44:26+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://hasajacy.github.io/posts/jak-wyci%C4%85gn%C4%85%C4%87-has%C5%82o-z-dziennika-uonet-absloutna-nauczycielska-g%C5%82upota/</loc>
+    <lastmod>2023-06-26T20:44:26+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://hasajacy.github.io/categories/powa%C5%BCniejsze/</loc>
+    <lastmod>2023-06-26T20:44:26+02:00</lastmod>
+  </url><url>
+    <loc>https://hasajacy.github.io/tags/uonet/</loc>
+    <lastmod>2023-06-26T20:44:26+02:00</lastmod>
   </url>
 </urlset>

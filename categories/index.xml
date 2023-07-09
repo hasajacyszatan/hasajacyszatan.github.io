@@ -2,9 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hasajacy</title>
-    <link>http://example.org/categories/</link>
+    <link>https://hasajacy.github.io/categories/</link>
     <description>Recent content in Categories on Hasajacy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl-pl</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 09 Jul 2023 19:21:00 +0200</lastBuildDate><atom:link href="https://hasajacy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pierdoły</title>
+      <link>https://hasajacy.github.io/categories/pierdo%C5%82y/</link>
+      <pubDate>Sun, 09 Jul 2023 19:21:00 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/categories/pierdo%C5%82y/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poważniejsze</title>
+      <link>https://hasajacy.github.io/categories/powa%C5%BCniejsze/</link>
+      <pubDate>Mon, 26 Jun 2023 20:44:26 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/categories/powa%C5%BCniejsze/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
