@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uonet on Hasajacy</title>
+    <link>https://hasajacy.github.io/tags/uonet/</link>
+    <description>Recent content in uonet on Hasajacy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Mon, 26 Jun 2023 20:44:26 +0200</lastBuildDate><atom:link href="https://hasajacy.github.io/tags/uonet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak wyciągnąć hasło z dziennika Uonet - absloutna nauczycielska głupota</title>
+      <link>https://hasajacy.github.io/posts/jak-wyci%C4%85gn%C4%85%C4%87-has%C5%82o-z-dziennika-uonet-absloutna-nauczycielska-g%C5%82upota/</link>
+      <pubDate>Mon, 26 Jun 2023 20:44:26 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/posts/jak-wyci%C4%85gn%C4%85%C4%87-has%C5%82o-z-dziennika-uonet-absloutna-nauczycielska-g%C5%82upota/</guid>
+      <description>Hej w tym wpisie zademonstruje wam sposób na wydobycie haseł do dziennika uonet który wymyśliliśmy z kolegą (i oczywiście nie zastosowaliśmy hehehe).
+Teoria Do tego celu korzystamy z ataku ARP spoofing i DNS spoofing który przekierowuje wszystkie zapytania do naszego serwera HTTP z fejkową stroną. Niestety szyfrowanie uniemożliwia przekierowania stron na protokole HTTPS (do których oczywiście dziennik uonet się wlicza), więc wykombinowaliśmy przekierowanie adresów których przeglądarka używa do sprawdzania captive portalu dzięki czemu nasza stronka pojawia się w przeglądarce jako “Zaloguj się do sieci”, a nauczyciele którzy nie są w stanie rozpoznać oczywistej zarzutki po kliknięciu w to są przekierowani do strony logowania do dziennika (oczywiście z naszego serwera)</description>
+    </item>
+    
+  </channel>
+</rss>

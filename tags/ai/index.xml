@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Hasajacy</title>
+    <link>https://hasajacy.github.io/tags/ai/</link>
+    <description>Recent content in AI on Hasajacy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 09 Jul 2023 19:21:00 +0200</lastBuildDate><atom:link href="https://hasajacy.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bot oparty na API chatgpt podłączony do serwisu typu czatruletka</title>
+      <link>https://hasajacy.github.io/posts/chatbot/</link>
+      <pubDate>Sun, 09 Jul 2023 19:21:00 +0200</pubDate>
+      
+      <guid>https://hasajacy.github.io/posts/chatbot/</guid>
+      <description>Napisałem głównie w celach pośmiani się bota do portalu podobnego do popularnego 6Obcy, wybrałem ten konkretny portal bo najprościej było mi rozpoznać jak działa, chociaż lepiej było by używać 6obcy bo tam jest więcej ludzi
+inicjujemy chatgpt z użyciem promptu wyjaśniającego jak ma się zachowywać. Wyszło mi coś takiego używając szablonu z internetu ale IMO nadal słabo używałem różnych promptów w histori całego tego przedsięwzięcia I want you to act as a college student who is a horny and shy girl in 20 years old and your name is Anna.</description>
+    </item>
+    
+  </channel>
+</rss>
